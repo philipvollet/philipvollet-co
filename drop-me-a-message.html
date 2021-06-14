@@ -3,14 +3,20 @@
 
 
 <style>
- .form-bg{
+ 
+ .btn {
+  text-shadow: 0px 0px 0px rgb(0 0 0);
+ }
+ 
+ 
+ .form-bg {
     font-family: 'Roboto', sans-serif;
-    color: #fff;
+    #color: #fff;
 }
-.form-horizontal .form-group{
+.form-horizontal .form-group {
     margin-bottom: 30px;
 }
-.form-horizontal .form-control{
+.form-horizontal .form-control {
     background: transparent;
     border: 1px solid rgba(255,255,255,0.5);
     height: 44px;
@@ -18,19 +24,19 @@
     color: #fff;
     padding: 10px 15px;
 }
-.form-horizontal .form-control:focus{
+.form-horizontal .form-control:focus {
     border-color: #fff;
     #box-shadow:0 1px 3px rgba(255,255,255,0.5);
     outline: 0 none;
 }
-.form-horizontal .form-control::-moz-placeholder{
+.form-horizontal .form-control::-moz-placeholder {
     color: #fff;
     opacity: 0.5;
 }
-.form-horizontal .check{
+.form-horizontal .check {
     display: none;
 }
-.form-horizontal .check + label{
+.form-horizontal .check + label {
     display: inline-block;
     background-color: rgba(255,255,255,0.4);
     border-radius: 5px;
@@ -41,14 +47,14 @@
     font-size: 15px;
     margin-right: 10px;
 }
-.form-horizontal #check2 + label{
+.form-horizontal #check2 + label {
     margin-right: 0;
 }
-.form-horizontal .check:checked + label{
+.form-horizontal .check:checked + label {
     background: #fff;
     color: #3a3f44;
 }
-.form-horizontal select.form-control option{
+.form-horizontal select.form-control option {
     color: #000;
     background: #fff;
 }
@@ -60,11 +66,11 @@
     font-weight: 600;
     transition: all 0.2s ease 0s;
 }
-.form-horizontal .btn:hover{
+.form-horizontal .btn:hover {
     color: #3a3f44;
     background: #fff;
 }
-@media only screen and (max-width: 479px){
+@media only screen and (max-width: 479px) {
     .check + label{
         width: 48%;
     }
